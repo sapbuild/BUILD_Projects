@@ -1,0 +1,26 @@
+{
+  "name": "norman-projects-server",
+  "version": "0.1.0",
+  "description": "Server module to handle projects",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sapbuild/Projects.git"
+  },
+  "licenses": [
+    {
+      "type": "Apache License, Version 2.0",
+      "url": "https://github.com/SAP/Build/blob/master/LICENSE.txt"
+    }
+  ],
+  "readmeFilename": "README.md",
+  "scripts": {},
+  "peerDependencies": {
+    "norman-common-server": "*",
+    "norman-server-tp": "*"
+  },
+  "dependencies": {
+    "async": "0.9.0",
+    "gridfs-stream": "0.5.3",
+    "rss": "1.1.1"
+  }
+}

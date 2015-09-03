@@ -1,0 +1,93 @@
+{
+    "env": {"NODE_ENV": "development"},
+    "debug": {
+        "active": true,
+        "liveReload": ["/norman"]
+    },
+    "server": {},
+    "logging": {
+        "output": {"stdout": {"type": "console"}},
+        "loggers": {"*": {"stdout": "debug"}}
+    },
+    "db": {
+        "hosts": "localhost",
+        "database": "norman-projects-server-test",
+        "options": {
+            "db": {"safe": {"w": 1}},
+            "server": {
+                "poolSize": 1,
+                "socketOptions": {"keepAlive": 1}
+            }
+        }
+    },
+    "deployment": {"strategy": "single"},
+    "http": {
+        "port": 9000,
+        "proxy": {
+            "host": "proxy",
+            "port": 8080
+        },
+        "secureFlag": false
+    },
+    "services": "services.json",
+    "features": "features.json",
+    "web": {
+        "root": "../../dev",
+        "indexFallback": [
+            "/verifyemail",
+            "/auth",
+            "/auth/*",
+            "/login",
+            "/signup",
+            "/norman",
+            "/forgot-password",
+            "/reset-password"
+        ],
+        "compression": {"threshold": 512}
+    },
+    "facebook": {
+        "clientID": "942447102435121",
+        "clientSecret": "33a4514d7c42bea5f421219f7218c727",
+        "callbackURL": "/auth/facebook/callback",
+        "enable": true
+    },
+    "google": {
+        "clientID": "328102506301-28sckgpg9joktt956jggl3c0liqub5jv.apps.googleusercontent.com",
+        "clientSecret": "Oc-BSCxlhvs3ayhcrDozlAGm",
+        "callbackURL": "/auth/google/callback",
+        "enable": true
+    },
+    "linkedin": {
+        "clientID": "776t60krcb9nei",
+        "clientSecret": "nlmFC80g9Pv7Rlc1",
+        "callbackURL": "/auth/linkedin/callback",
+        "enable": true
+    },
+    "account": {
+        "accountNameMinlength": 3,
+        "accountNameMaxlength": 120,
+        "forgotPasswordTokenExpiryInDays": 1,
+        "autoResendEmailVerification": true,
+        "emailVerifingTokenExpiryInDays": 30,
+        "emailHasAlreadyVerified": "The resource you are looking for is not available.",
+        "recoverAccountPasswordTokenExpiredMessage": "The resource your are looking for hasbeen expired, please try again later.",
+        "recoverAccountPasswordTokenVerifiedMessage": "Your email address has been verified."
+    },
+    "audit": {
+        "defaultCreatedBy": "SYSTEM"
+    },
+    "access": {
+        "defaultPermissions": [
+            {"access": "standard"},
+            {"study": "participant"},
+            {"project": "collaborator"}
+        ]
+    },
+    "security": "../sample/server/security.json",
+    "session": {
+        "secret": "6b3d33424715c901969d41a856cdb83d2089dbeaf3813a5f678856a4dcb77c1c",
+        "tokenExpirationMinutes": 5,
+        "tokenLength": 64,
+        "tokenExpirationDays": 30
+    }
+}
