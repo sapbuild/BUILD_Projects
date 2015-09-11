@@ -1,0 +1,114 @@
+@import (reference) '../node_modules/norman-client-tp/node_modules/angular-sap-ui-elements/styles/variables';
+
+.project-settings {
+    padding: 0 30px;
+
+    #title{
+        margin-bottom: 50px;
+    }
+
+    [layout="row"] {
+        margin-top: 20px;
+    }
+
+    h1 {
+        margin: 0;
+    }
+    h2 {
+        text-transform: capitalize;
+    }
+
+    .archive-checkbox-row.disabled {
+        opacity: 0.5;
+        pointer-events: none;
+    }
+
+    .btn-archive {
+        background-color: @Cinnabar-900;
+        &:hover {
+            background-color: @Cinnabar-500;
+        }
+        &:active {
+            background-color: @Cinnabar-900;
+        }
+
+        &[disabled] {
+            &,
+            &:hover,
+            &:active {
+                background-color: @SilverSand-500;
+            }
+        }
+    }
+
+    .upload-image{
+        width: 500px;
+        .button{
+            width: 140px;
+            position: relative;
+            top: -182px;
+            left: 270px;
+        }
+    }
+    #project-settings-selection{
+        margin-right: 50px;
+        width: 150px;
+        min-width: 150px;
+        .item {
+            .link {
+                text-decoration: none;
+                color: @PickledBluewood-900;
+                height: 25px;
+                font-weight: 500;
+                font-size: 15px;
+            }
+            &.active {
+                background-color: @PickledBluewood-900;
+                .link {
+                    color: @White;
+                }
+            }
+        }
+    }
+
+    #thumbnail-display{
+        width: 240px;
+        height: 180px;
+        border: 1px solid black;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+#projectUploadImageDialog{
+        width: 760px;
+        .content{
+            height: 300px;
+            overflow-y: auto;
+            padding: 0 0 0 20px;
+            .asset { float: left; margin: 20px 20px 0 0; position: relative;
+
+                .complete-tick {
+				z-index: 2;
+				transition: all 0.3s ease-out;
+				opacity: 0;
+				width: 30px;
+				height: 30px;
+				position: absolute;
+                top: calc(~'50% - 15px');
+                left: calc(~'50% - 15px');
+                background: @White url("/resources/norman-projects-client/assets/ico-tick.svg") center center no-repeat;
+                border-radius: 50%;
+			}
+
+          }
+          .selected {
+			&.asset {
+              opacity: 0.5;
+              background-color: rgba(51,152,219,0.60);
+              background-clip: content-box;
+            }
+			.complete-tick { opacity: 1; }
+		}
+        }
+    }

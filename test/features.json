@@ -1,0 +1,14 @@
+{
+    "enable-prototype": {
+        "name": "Prototype service, transform the prototype definition from metadata to actual code",
+        "enabled": true
+    },
+    "enable-publish": {
+        "name": "Publish service, sets a projects status to public - also used for unpublish service",
+        "enabled": true
+    },
+    "enable-rss": {
+        "name": "RSS service, returns an RSS feed containing a list of public projects",
+        "enabled": true
+    }
+}
