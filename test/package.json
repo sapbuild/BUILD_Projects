@@ -19,13 +19,5 @@
   ],
   "devDependencies": {
     "request": "^2.51.0"
-  },
-  "peerDependencies": {
-    "norman-testing-server": "*",
-    "norman-common-server": "*",
-    "norman-server-tp": "*",
-    "node-sap-app-server": "*",
-    "norman-testing-tp": "*",
-    "norman-client-tp": "*"
   }
 }

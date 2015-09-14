@@ -14,10 +14,6 @@
   ],
   "readmeFilename": "README.md",
   "scripts": {},
-  "peerDependencies": {
-    "norman-common-server": "*",
-    "norman-server-tp": "*"
-  },
   "dependencies": {
     "async": "0.9.0",
     "gridfs-stream": "0.5.3",
