@@ -13,9 +13,5 @@
     }
   ],
   "readmeFilename": "README.md",
-  "scripts": {},
-  "peerDependencies": {
-    "norman-client-tp": "*",
-    "norman-shell-client": "*"
-  }
+  "scripts": {}
 }
