@@ -87,6 +87,7 @@
     "norman-common-client": "0.3.0",
     "norman-common-server": "0.3.0",
     "norman-server-tp": "0.3.0",
+    "norman-client-tp": "0.3.1",
     "norman-testing-server": "0.3.0",
     "norman-testing-tp": "0.3.0",
     "norman-testing-tp-client": "0.3.0",
