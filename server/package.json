@@ -1,6 +1,6 @@
 {
   "name": "norman-projects-server",
-  "version": "0.1.1",
+  "version": "0.3.0",
   "description": "Server module to handle projects",
   "repository": {
     "type": "git",
