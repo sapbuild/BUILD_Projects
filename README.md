@@ -3,8 +3,11 @@ Projects Module
 
 [![Build Status](https://build-jenkins.wdf.sap.corp/jenkins/buildStatus/icon?job=Projects-master)](https://build-jenkins.wdf.sap.corp/jenkins/job/Projects-master/)
 
-##Make a Contribution
-Click here to view our [Contribution](https://github.wdf.sap.corp/Norman/Norman/blob/master/Contributing.md) document.
+# BUILD on GitHub
+
+[Click here](https://github.com/SAP/BUILD) to visit the central BUILD project on GitHub, where you can find out more!
+
+[Click here](https://github.com/SAP/BUILD/blob/master/Contributing.md) to view the BUILD Contribution Guidelines. 
 
 # Prerequisites for local development
 1. MongoDB is installed
