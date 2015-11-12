@@ -1,11 +1,11 @@
 Projects Module
 ===============
 
-[![Build](https://img.shields.io/travis/sapbuild/projects.svg?style=flat-square)](http://travis-ci.org/sapbuild/projects)
-[![Version](https://img.shields.io/npm/v/norman-projects.svg?style=flat-square)](https://npmjs.org/package/norman-projects)
-[![Dependency Status](https://david-dm.org/sapbuild/projects.svg)](https://david-dm.org/sapbuild/projects)
-[![devDependency Status](https://david-dm.org/sapbuild/projects/dev-status.svg)](https://david-dm.org/sapbuild/projects#info=devDependencies)
-[![Coverage](https://img.shields.io/coveralls/sapbuild/projects/master.svg?style=flat-square)](https://coveralls.io/r/sapbuild/projects?branch=master)
+[![Build](https://img.shields.io/travis/sapbuild/Projects.svg?style=flat-square)](http://travis-ci.org/sapbuild/projects)
+[![Version](https://img.shields.io/npm/v/norman-projects-client.svg?style=flat-square)](https://npmjs.org/package/norman-projects)
+[![Dependency Status](https://david-dm.org/sapbuild/Projects.svg)](https://david-dm.org/sapbuild/projects)
+[![devDependency Status](https://david-dm.org/sapbuild/Projects/dev-status.svg)](https://david-dm.org/sapbuild/projects#info=devDependencies)
+[![Coverage](https://img.shields.io/coveralls/sapbuild/Projects/master.svg?style=flat-square)](https://coveralls.io/r/sapbuild/projects?branch=master)
 
 # BUILD on GitHub
 
